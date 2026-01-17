@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musiciens - Notre Messe de Mariage</title>
+    <meta name="description" content="Disposez d'un espace unique pour piloter toute votre activité liée aux mariages. Gérez votre répertoire, collaborez avec les couples et générez vos documents.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="Notre Messe de Mariage - Accueil">
+                <img src="images/Fichier%2038@3x.png" onerror="this.onerror=null;this.src='images/logo_avectexte_horizontal.png';" alt="Notre Messe de Mariage - Logo" width="200" height="50">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="futurs-maries.html">Futurs Mariés</a></li>
+                <li><a href="paroisses.html">Paroisses</a></li>
+                <li><a href="musiciens.html" aria-current="page">Musiciens</a></li>
+                <li><a href="bibliotheque.html">Bibliothèque Partagée</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li>
+                    <a class="nav-icon" href="https://www.instagram.com/notremessedemariage" target="_blank" rel="noopener noreferrer" aria-label="Instagram - Ouvre dans un nouvel onglet">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li><a href="#" class="cta-button" disabled>Inscription/Connexion</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu mobile" aria-expanded="false">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero musiciens">
+        <div class="page-hero-content">
+            <h1>Musiciens</h1>
+            <p>Développez votre activité et valorisez votre talent. Accompagnez les couples dans leurs moments les plus précieux grâce à une plateforme pensée pour les professionnels de la musique liturgique.</p>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="content-section">
+        <div class="content-container">
+            <h2 class="section-title">Pilotez toute votre activité mariages</h2>
+            <p class="intro-text">
+                Disposez d'un espace unique pour piloter toute votre activité liée aux mariages. Retrouvez en un seul endroit 
+                les informations générales propres à chaque célébration, créez et enrichissez votre répertoire personnel, 
+                suivez l'évolution des choix des couples et échangez directement avec eux.
+            </p>
+        </div>
+    </section>
+
+    <!-- Référencement Section -->
+    <section class="content-section alt">
+        <div class="content-container">
+            <h2 class="section-title">Deux modes d'accès</h2>
+            
+            <p class="intro-text">
+                Que vous soyez musicien professionnel ou amateur invité par un couple, découvrez les fonctionnalités adaptées à votre activité.
+            </p>
+
+            <div class="table-wrapper">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Fonctionnalités</th>
+                            <th class="text-center">
+                                <i class="fas fa-user"></i><br>Musicien Invité<br>(Amateur)
+                            </th>
+                            <th class="text-center">
+                                <i class="fas fa-star"></i><br>Musicien Référencé<br>(Professionnel)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-weight-medium">Accès au mariage pour lequel vous êtes invité</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Travail avec le répertoire global de la plateforme</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Génération des PDF (déroulé + partitions)</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Collaboration directe avec le couple</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Date, heure, lieu et coordonnées du mariage</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Suivi de l'avancée de la préparation</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Commentaires intégrés au déroulé</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Validation des suggestions de chants</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Coordination avec les autres intervenants</td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Répertoire musical personnalisé accessible aux couples</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Gestion complète de tous vos mariages</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Renseigner tarifs et modalités de paiement</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Suivi des règlements</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-medium">Gestion des informations pratiques (matériel, horaires, contacts)</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>
+                        <!--<tr>
+                            <td class="font-weight-medium">Visibilité auprès des couples qui recherchent un musicien</td>
+                            <td class="text-center text-disabled"><i class="fas fa-times-circle"></i></td>
+                            <td class="text-center"><i class="fas fa-check-circle"></i></td>
+                        </tr>-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section class="content-section alt">
+        <div class="content-container">
+            <h2 class="section-title">Les Avantages pour les Musiciens</h2>
+            <div class="content-grid-small">
+                <div class="text-center-padded">
+                    <i class="fas fa-clipboard-list icon-large"></i>
+                    <h4>Organisation simplifiée</h4>
+                    <p>Tous vos mariages centralisés en un seul endroit</p>
+                </div>
+                <div class="text-center-padded">
+                    <i class="fas fa-file-pdf icon-large"></i>
+                    <h4>Documents automatiques</h4>
+                    <p>Génération automatique du déroulé et des partitions</p>
+                </div>
+                <div class="text-center-padded">
+                    <i class="fas fa-handshake icon-large"></i>
+                    <h4>Professionnalisme valorisé</h4>
+                    <p>Une plateforme qui renforce votre image professionnelle</p>
+                </div>
+                <div class="text-center-padded">
+                    <i class="fas fa-comments icon-large"></i>
+                    <h4>Communication facilitée</h4>
+                    <p>Échangez facilement avec les couples et les autres intervenants</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="content-section" style="text-align: center;">
+        <div class="content-container">
+            <h2 class="section-title">Prêt à simplifier votre activité ?</h2>
+            <p class="intro-text">
+                Rejoignez les musiciens qui utilisent déjà Notre Messe de Mariage lors du lancement...
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="footer-compact">
+        <div class="footer-container footer-compact">
+            <!-- Ligne 1: Marque + réseaux -->
+            <div class="footer-row brand-row">
+                <div class="brand">
+                    <h3>Notre Messe de Mariage</h3>
+                    <p>La plateforme qui rend l'organisation de votre messe de mariage simple et mémorable.</p>
+                </div>
+            </div>
+
+            <!-- Ligne 2: Liens support (sur une seule ligne) -->
+            <div class="footer-row links-row" aria-label="Support">
+                <ul class="footer-links">
+                    <li><a href="#">Conditions générales de vente et d'abonnement</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Charte cookies</a></li>
+                    <li><a href="#">Conditions générales d'utilisations</a></li>
+                    <li><a href="#">Politique de droits de propriété intellectuelle</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+
+            <!-- Ligne 3: Contact (mail + téléphone en ligne) -->
+            <div class="footer-row contact-row">
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:contact@notremessedemariage.fr">contact@notremessedemariage.fr</a></li>
+                </ul>
+            </div>
+            <!-- Icône social, centré juste au-dessus du copyright -->
+            <div class="footer-social">
+                <div class="social-links">
+                    <a href="https://www.instagram.com/notremessedemariage" aria-label="Suivez-nous sur Instagram" rel="noopener noreferrer" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Notre Messe de Mariage. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileMenuBtn.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+    <script src="animations.js"></script>
+</body>
+</html>
